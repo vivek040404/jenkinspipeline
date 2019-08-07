@@ -7,7 +7,7 @@ pipeline{
                 sh '''
                     whoami
                     ls
-                    sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+                    #sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
                     sudo yum install nodejs -y
                     node -v; npm -v
                     sudo npm yum -g @angular/cli -y
